@@ -1,0 +1,16 @@
+div#dane-programisty {
+    margin-top: 30px;
+    display: table;
+    border: 1px solid hsl(250,0%,95%);
+}
+div#dane-programisty .prop {
+    display: table-row;
+}
+div#dane-programisty .prop_name {
+    text-transform: capitalize;
+}
+div#dane-programisty .prop [class^=prop] {
+    display: table-cell;
+    padding: 5px 10px;
+    border-bottom: 1px solid hsl(250,0%,95%);
+}
